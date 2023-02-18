@@ -1,0 +1,33 @@
+{
+	"name": "lovealarm",
+	"version": "1.0.0",
+	"description": "Interface graphique d'une Application web permettant de rencontré l'amour ",
+	"main": "index.tsx",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jeereq/loveAlarm.git"
+	},
+	"keywords": [
+		"nextjs",
+		"pwa"
+	],
+	"author": "minganda jeereq",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jeereq/loveAlarm/issues"
+	},
+	"homepage": "https://github.com/jeereq/loveAlarm#readme",
+	"dependencies": {
+		"next": "^13.1.6",
+		"next-pwa": "^5.6.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	}
+}
